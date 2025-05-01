@@ -2,7 +2,7 @@ import streamlit as st
 from data_utils import load_data
 import sys
 
-sys.path.append("/Users/sumanshrestha/Documents/AI Class Omdena/capstone-project-makaisuman/pages")
+sys.path.append("/Users/Sony Vaio/Desktop/all-omdena-file/omdena-6-capstone/capstone-project-binodpoudel/pages")
 from pages import data_exploration, model_training, prediction_page, eda
 
 # Set the page configuration

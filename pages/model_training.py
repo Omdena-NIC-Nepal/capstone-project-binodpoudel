@@ -1,7 +1,7 @@
 import streamlit as st
 import sys
 
-sys.path.append("C:/Users/Sony Vaio/Downloads/capstone-project-makaisuman-main")
+sys.path.append("C:/Users/Sony Vaio/Desktop/all-omdena-file/omdena-6-capstone/capstone-project-binodpoudel")
 from data_utils import prepare_features
 from models import split_data, train_model, evaluate_model, save_model
 from visualizations import plot_actual_vs_predicted

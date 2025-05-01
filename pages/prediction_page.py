@@ -2,7 +2,7 @@ import streamlit as st
 import numpy as np
 import sys
 
-sys.path.append("C:/Users/Sony Vaio/Downloads/capstone-project-makaisuman-main")
+sys.path.append("C:/Users/Sony Vaio/Desktop/all-omdena-file/omdena-6-capstone/capstone-project-binodpoudel")
 from models import load_model
 from prediction import make_prediction, get_historical_context, get_historical_average
 from visualizations import plot_prediction_context

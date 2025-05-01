@@ -1,7 +1,7 @@
 import streamlit as st
 import sys
 
-sys.path.append("C:/Users/Sony Vaio/Downloads/capstone-project-makaisuman-main")
+sys.path.append("C:/Users/Sony Vaio/Desktop/all-omdena-file/omdena-6-capstone/capstone-project-binodpoudel")
 from visualizations import  plot_monthly_distribution, plot_time_series, plot_seasonal_patterns, plot_yearly_trends, plot_temp_distribution_by_district1, plot_temperature_distribution_by_selected_district, plot_correlation
 
 
