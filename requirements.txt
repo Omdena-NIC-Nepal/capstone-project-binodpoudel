@@ -1,0 +1,10 @@
+numpy
+pandas
+streamlit
+matplotlib
+seaborn
+scikit-learn
+io
+calendar
+folium
+pickle
