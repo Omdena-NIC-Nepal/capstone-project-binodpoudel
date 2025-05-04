@@ -1,9 +1,13 @@
 import streamlit as st
 from data_utils import load_data
 import sys
-
-sys.path.append("C:/Users/Sony Vaio/Desktop/all-omdena-file/omdena-6-capstone/capstone-project-binodpoudel/pages")
-from pages import data_exploration, model_training, prediction_page, eda
+#sys.path.append("C:/Users/Sony Vaio/Desktop/all-omdena-file/omdena-6-capstone/capstone-project-binodpoudel/pages")
+#sys.path.append("C:/Users/Sony Vaio/Desktop/all-omdena-file/omdena-6-capstone/capstone-project-binodpoudel/pages")
+#from pages import data_exploration, model_training, prediction_page, eda
+from pages import data_exploration
+from pages import model_training
+from pages import prediction_page
+from pages import eda
 
 # Set the page configuration
 st.set_page_config(
