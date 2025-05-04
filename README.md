@@ -30,8 +30,8 @@
       * Branch: main
       * File name: app.py
 1. Deploy   
-### Here Streamlit app link:-  
-    https://omdena-nic-nepal-capstone-project-binodpoudel-app-kj7dqt.streamlit.app/
+### Here Streamlit app link:-  https://omdena-nic-nepal-capstone-project-binodpoudel-app-kj7dqt.streamlit.app/
+   
 
 ### The Project Structure:-
 --app.py # Main Streamlit app
