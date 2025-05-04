@@ -1,13 +1,8 @@
 import streamlit as st
 from data_utils import load_data
 import sys
-#sys.path.append("C:/Users/Sony Vaio/Desktop/all-omdena-file/omdena-6-capstone/capstone-project-binodpoudel/pages")
-#sys.path.append("C:/Users/Sony Vaio/Desktop/all-omdena-file/omdena-6-capstone/capstone-project-binodpoudel/pages")
-#from pages import data_exploration, model_training, prediction_page, eda
-from pages import data_exploration
-from pages import model_training
-from pages import prediction_page
-from pages import eda
+
+from modules import data_exploration, model_training, prediction_page,eda
 
 # Set the page configuration
 st.set_page_config(
@@ -17,9 +12,9 @@ st.set_page_config(
 )
 
 # Give the title
-st.title("Temperatures Analysis and Predictions")
-st.markdown("Analyze historical Temperatures data and predict future trends")
-st.markdown("Temperatures data from 1989 to 2019")
+st.title("Temperatures Analytics and Predictions")
+st.markdown("Historical temperature-specific data analytics and forecasting")
+st.markdown("Temperatures data from Nepal")
 
 
 df = load_data()
